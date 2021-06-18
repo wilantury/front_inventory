@@ -16,3 +16,14 @@ export const Logo = styled.div`
         color: lightgrey;
     }
 `
+export const Label = styled.label`
+    font-size: 25px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 1px 15px;
+    color: rgb(34,193,195);
+    &:hover{
+        color: white;
+        cursor: pointer;
+    }
+`

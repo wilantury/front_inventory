@@ -12,10 +12,13 @@ export const CardWrapper = styled.div`
     overflow: hidden;
     border-radius: 10px;
     margin: 10px;
-    height: 300px;
+    max-height: 350px;
     & h3, h4 {
         margin-left: 10px;
         padding: 5px;
+    }
+    & Img {
+        max-height: 150px
     }
 `
 
